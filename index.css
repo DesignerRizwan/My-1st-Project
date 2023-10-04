@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 180vh;
+    width: 100%;
+    background: url(image\ 1.png);
+    background-size: cover;
+    background-position-y:-100px ;
+}
+.main{
+    height: 165vh;
+    font-family: 'Mohave', sans-serif;
+}
+.line1{
+    display: flex;
+
+}
+.line2{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 40px;
+}
+.riz{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 50PX;
+    line-height: 126.664%; /* 77.875px */
+letter-spacing: -0.922px;
+}
+.ahm{
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 32PX;
+margin-top: -10px;
+}
